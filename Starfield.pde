@@ -4,6 +4,7 @@ PImage forest;
 PImage tinkerbell;
   void setup(){
    size(870,871);
+      sparkle = loadImage("sparkleeee.png");
        forest = loadImage("forestt (2).jpg");
        tinkerbell = loadImage("tinkk.png");
 //background(forest);
@@ -15,7 +16,7 @@ PImage tinkerbell;
    bob[0]=new tink();
     bob[1]=new tink();
      bob[2]=new tink();
-   sparkle = loadImage("sparkleeee.png");
+
 
   }
   void draw(){
