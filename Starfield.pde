@@ -41,7 +41,7 @@ PImage tinkerbell;
 PImage silvermist;
   void setup(){
    size(870,871);
-       forest = loadImage("forestt (2).jpg");
+       forest = loadImage("forestt (2).jpg ");
        tinkerbell = loadImage("tinkk.png");
 background(forest);
     bob=new Particle[1000];
